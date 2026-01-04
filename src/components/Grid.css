@@ -1,0 +1,13 @@
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* 4 columns */
+  gap: 10px;
+}
+
+.grid-item {
+  background: #222;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  border-radius: 8px;
+}
